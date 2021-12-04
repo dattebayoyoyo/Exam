@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060094897095",
+    "project_id": "marry-christmas-4c9e8",
+    "storage_bucket": "marry-christmas-4c9e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060094897095:android:39834990b01264d89d87e2",
+        "android_client_info": {
+          "package_name": "com.example.hohoho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060094897095-sn8riq8v7pjc2oub2juk05o4p8kdqcq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUlfMDqC8QI15DffczKR637KxkmhcDqM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060094897095-sn8riq8v7pjc2oub2juk05o4p8kdqcq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
