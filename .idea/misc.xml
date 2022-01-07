@@ -3,13 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/string.xml" value="0.32407407407407407" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_fragment1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fragment2.xml" value="0.22713864306784662" />
+        <entry key="app/src/main/res/layout/activity_fragment3.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.340625" />
         <entry key="app/src/main/res/layout/activity_password_change.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_password_reset.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.35572916666666665" />
-        <entry key="app/src/main/res/layout/login_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/login_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/main.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/person_items.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.35572916666666665" />
       </map>
     </option>
   </component>

@@ -29,7 +29,7 @@ class PasswordChangeActivity : AppCompatActivity() {
         buttonChange.setOnClickListener {
             val newPassword = editTextNewPassword.text.toString()
 
-            if (newPassword.isEmpty() || newPassword.length < 9 || editTextOldPassword.text==editTextNewPassword.text){
+            if (newPassword.isEmpty() || newPassword.length < 5 || editTextOldPassword.text==editTextNewPassword.text){
                 Toast.makeText(this, "incorrect password", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
@@ -47,6 +47,6 @@ class PasswordChangeActivity : AppCompatActivity() {
 
     }
     private fun gotoProfile(){
-        startActivity(Intent(this, ProfileActivity::class.java))
+        startActivity(Intent(this, Fragment1::class.java))
         finish()}
 }

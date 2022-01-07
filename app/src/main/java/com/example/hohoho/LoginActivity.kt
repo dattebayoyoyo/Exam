@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.example.recycleview.main
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
@@ -22,9 +23,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if(FirebaseAuth.getInstance().currentUser !=null){
-            gotoProfile()
-        }
+       /// if(FirebaseAuth.getInstance().currentUser !=null){ gotoProfile() }
 
 
         setContentView(R.layout.login_main)
@@ -72,7 +71,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun gotoProfile(){
-        startActivity(Intent(this, ProfileActivity::class.java))
+        startActivity(Intent(this, main::class.java))
         finish()
     }
 }

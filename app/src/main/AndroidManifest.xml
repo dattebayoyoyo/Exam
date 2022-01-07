@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.hohoho">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,16 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hohoho">
         <activity
+            android:name="com.example.recycleview.main"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment3"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment2"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment1"
+            android:exported="true" />
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="true" />
         <activity
             android:name=".PasswordChangeActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="true" />
-        <activity
-            android:name=".PasswordResetActivity"
             android:exported="true" />
         <activity
             android:name=".RegisterActivity"
