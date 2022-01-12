@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class RecycleViewPersonAdapter(private val list: List<com.example.hohoho.Person>):
+class RecycleViewPersonAdapter(private val list: List<com.example.hohoho.Flowers>):
     RecyclerView.Adapter<RecycleViewPersonAdapter.PersonViewHolder>() {
 
 
@@ -23,13 +23,13 @@ class RecycleViewPersonAdapter(private val list: List<com.example.hohoho.Person>
             textView2 = itemView.findViewById(R.id.textView2)
         }
 
-        fun setData(person: Person){
+        fun setData(flowers: Flowers){
             Glide.with(itemView)
-                .load(person.imageUrl)
+                .load(flowers.imageUrl)
                 .into(imageView)
 
-            textView.text = person.name
-            textView2.text = person.title
+            textView.text = flowers.name
+            textView2.text = flowers.title
 
         }
     }
