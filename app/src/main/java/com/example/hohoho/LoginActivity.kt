@@ -1,7 +1,6 @@
 package com.example.hohoho
 
 import android.content.Intent
-import android.graphics.Paint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,12 +17,11 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var buttonlogin: Button
     private lateinit var buttonregistration: Button
     private lateinit var forgotPassword: TextView
-    var dog ="@"
+    private var dog ="@"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-       /// if(FirebaseAuth.getInstance().currentUser !=null){ gotoProfile() }
 
 
         setContentView(R.layout.login_main)
@@ -61,6 +59,7 @@ class LoginActivity : AppCompatActivity() {
                 .signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful){
+                        savedStateRegistry
                         gotoProfile()
                     }else{
                         Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()

@@ -11,16 +11,20 @@
         android:id="@+id/dashboardFragment"
         android:name="com.example.hohoho.Fragment1"
         tools:layout="@layout/activity_fragment1"
-        android:label="flowers" />
+        android:label="Catalog" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.hohoho.Fragment2"
         tools:layout="@layout/activity_fragment2"
-        android:label="profile" />
+        android:label="Profile" />
 
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.hohoho.Fragment3"
         tools:layout="@layout/activity_fragment3"
-        android:label="info" />
+        android:label="Info" />
 </navigation>

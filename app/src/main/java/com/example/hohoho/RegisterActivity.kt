@@ -14,12 +14,18 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var buttonRegister: Button
     var dog="@"
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
         init()
         registerListeners()
-    }
+
+
+
+
+            }
     private fun init(){
         editTextEmail = findViewById(R.id.editTextEmail)
         editTextPassword = findViewById(R.id.editTextPassword)
@@ -43,6 +49,7 @@ class RegisterActivity : AppCompatActivity() {
                         Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                     }
                 }
+
         }
     }
 }

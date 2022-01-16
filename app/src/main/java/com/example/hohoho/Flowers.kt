@@ -1,6 +1,6 @@
 package com.example.hohoho
 
-data class Person(
+data class Flowers(
     val id: Int,
     val title: String,
     val name: String,
