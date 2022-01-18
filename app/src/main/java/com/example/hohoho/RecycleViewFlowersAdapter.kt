@@ -38,7 +38,7 @@ import com.bumptech.glide.Glide
                     .setTitle("ყიდვა")
                     .setMessage("ნამდვილად გსურთ არჩეული თაიგულის შეძენა?")
                     .setPositiveButton("დიახ", ) { dialog, i ->
-                        Toast.makeText(itemView.getContext(), "გთხპვთ დაიმახსოვროთ თაიგულის დასახელება, შესაძენად გადადით საინფორმაციო გვერდზე.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(itemView.getContext(), "გთხოვთ დაიმახსოვროთ თაიგულის დასახელება, შესაძენად გადადით საინფორმაციო გვერდზე.", Toast.LENGTH_SHORT).show()
                         dialog.dismiss()
                     }
                     .setNegativeButton("არა") { dialog, i ->
